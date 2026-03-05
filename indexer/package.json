@@ -1,0 +1,16 @@
+{
+    "name": "arbipredict-indexer",
+    "version": "1.0.0",
+    "description": "Indexer for ArbiPredict",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "ethers": "^6.12.1",
+        "pg": "^8.11.5",
+        "express": "^4.19.2",
+        "cors": "^2.8.5"
+    }
+}
